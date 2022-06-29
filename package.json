@@ -92,9 +92,9 @@
   },
   "dependencies": {
     "@faker-js/faker": "^7.3.0",
-    "@trong-orm/query-builder": "^1.0.41",
-    "@trong-orm/react": "^1.0.41",
-    "@trong-orm/electron-better-sqlite3-backend": "^1.0.41",
+    "@trong-orm/query-builder": "^1.0.44",
+    "@trong-orm/react": "^1.0.44",
+    "@trong-orm/electron-better-sqlite3-backend": "^1.0.44",
     "@trong-orm/sql.js": "^1.6.7",
     "better-sqlite3": "^7.5.3",
     "electron-squirrel-startup": "^1.0.0",
