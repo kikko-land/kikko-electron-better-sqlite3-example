@@ -4,9 +4,9 @@ import {
   IInitDbClientConfig,
   migrationsPlugin,
   reactiveQueriesPlugin,
-} from "@trong-orm/react";
+} from "@kikko-land/react";
 import ReactDOM from "react-dom/client";
-import { electronBetterSqlite3Backend } from "@trong-orm/electron-better-sqlite3-backend";
+import { electronBetterSqlite3Backend } from "@kikko-land/electron-better-sqlite3-backend";
 
 import { List } from "./List";
 import { createNotesTableMigration } from "./migrations/createNotesTable";

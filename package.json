@@ -1,6 +1,6 @@
 {
-  "name": "trong-electron-example",
-  "productName": "trong-electron-example",
+  "name": "kikko-electron-example",
+  "productName": "kikko-electron-example",
   "version": "1.0.0",
   "description": "My Electron application description",
   "main": ".webpack/main",
@@ -24,7 +24,7 @@
         {
           "name": "@electron-forge/maker-squirrel",
           "config": {
-            "name": "trong_electron_example"
+            "name": "kikko_electron_example"
           }
         },
         {
@@ -91,10 +91,10 @@
     "typescript": "~4.5.4"
   },
   "dependencies": {
-    "@trong-orm/electron-better-sqlite3-backend": "^1.1.0",
-    "@trong-orm/query-builder": "^1.1.0",
-    "@trong-orm/react": "^1.1.0",
-    "@trong-orm/sql.js": "^1.6.7",
+    "@kikko-land/electron-better-sqlite3-backend": "^0.2.0",
+    "@kikko-land/query-builder": "^0.1.1",
+    "@kikko-land/react": "^0.2.0",
+    "@kikko-land/sql.js": "^1.6.8",
     "better-sqlite3": "^7.5.3",
     "electron-squirrel-startup": "^1.0.0",
     "lodash-es": "^4.17.21",
